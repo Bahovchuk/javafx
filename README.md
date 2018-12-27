@@ -2,9 +2,9 @@
 Repository for the course "JavaFX"
 
 ## Intro
-Для каждого `lesson` имеется:
-- отдельная `branch` в [GitHub](https://github.com/rakavets/javafx) c именем `lesson${numberLesson}` 
-- в `branch` имеется директория c именем `lesson${numberLesson}`
-- имеется `lesson${numberLesson}/technical specification.md`, которое состоит из нескольких `statement of work`
+Каждый `lesson` связан с каким-то `project`. Несколько `lesson` могут быть связаны с одним `project`.
 
-Каждый `technical specification` выполняется в `project` с именем котрый указан в нем
+Каждый `project` имеет (далее `${project}` - это переменная, для названия проекта):
+- отдельную `branch` в [GitHub](https://github.com/rakovets/javafx) c названием `${project}` 
+- в `branch` имеется директория c именем `${project}`
+- файл `${project}/technical specification.md` содержащий описание проекта и `development steps`. `development steps` - шаги, которые необходимо выполнить, для того, что бы реализовать `project`
